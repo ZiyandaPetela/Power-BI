@@ -172,8 +172,31 @@ creating your Power BI report.
 * Once you connected to your data, you can either create a new report or edit an existing report that was created previously. Then we can begin editing the report by using the editing view. On the right are the Visualizations, Filters, and Fields panes.
 *  Your Excel workbook table data appears in the Fields pane. At the top is the name of the table, financials. Under that, Power BI lists the column headings as individual fields.
 *  Different visualizations are available that you can use to display the data in your report. Different visualizations can be added to the report based on the data that you want to communicate.
-Once you connected to your data, you can either create a new report or edit an existing report that was created previously.
-Then we can begin editing the report by using the editing view. On the right are the Visualizations, Filters, and Fields panes.
-Your Excel workbook table data appears in the Fields pane. At the top is the name of the table, financials. Under that, Power BI lists the column headings as individual fields.
+*  Once you connected to your data, you can either create a new report or edit an existing report that was created previously.
+*  Then we can begin editing the report by using the editing view. On the right are the
+*  Visualizations, Filters, and Fields panes.
+*  Your Excel workbook table data appears in the Fields pane. At the top is the name of the table, financials. Under that, Power BI lists the column headings as individual fields.
+*  Different visualizations are available that you can use to display the data in your report. Different visualizations can be added to the report based on the data that you want to communicate.
+*   In the image, multiple bar charts are being used to showcase the number of units being sold. Additionally, map control is included to show sales volumes per country/region.
 
-Different visualizations are available that you can use to display the data in your report. Different visualizations can be added to the report based on the data that you want to communicate. In the image, multiple bar charts are being used to showcase the number of units being sold. Additionally, map control is included to show sales volumes per country/region.
+* Each visualization includes a series of filters and controls that can be used to impact how the data is being presented. For example, if you want to change the sum of units sold to display profit by date, you could switch the Y-axis from Sum of Units sold, to Sum of Profit.
+* More visualizations are being added to Power BI to reflect how business is being done. For example, there's a Power Apps visualization that lets you build a canvas app directly in your Power BI report, which is connected to the Power BI data set.
+*  As people interact with the data, the data in the Power App changes. For example, you could create a canvas app that includes actions such as sending emails or scheduling meetings.
+
+  ## Pin to a dashboard
+  * After you have all your visualizations on your reports, you can build your dashboard.
+ *  Dashboards are easy to build because you're just determining which visuals from your created reports you want to include.Pin to a dashboard
+  * Since dashboards can have visuals from multiple reports, it makes it easy to have detailed dashboards that include data from multiple data sources, even if some of those data sources might be unrelated.
+
+## Share a link to your dashboard
+* Initially dashboards that you create are only visible to the person that created them.
+* You can share your dashboard and underlying report with any colleague who has a Power BI account. They can interact with it, but they can't save changes.
+*  If you allow it, they can reshare with others or build a new report based on the underlying dataset.
+
+## Consider the business value of Power BI
+* It's now common knowledge that data can improve business processes and increase revenue.
+
+*With Microsoft Power BI, organizations can create powerful data analytics and data visualizations to help more effectively drive data-driven business decisions. With multiple options for connecting and working with data, reports and visualizations can be easily created based on the wide variety of data that organizations need to work with daily. Reports and dashboards can be shared and embedded in other applications, making it simple for them to be consumed by anyone who should have access to the data. 
+
+# What can I do with the Power BI service as a consumer?
+* We live in a data culture where business decisions should be based on facts, not opinions. We need data to help us make these decisions.
