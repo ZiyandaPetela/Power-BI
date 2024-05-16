@@ -245,3 +245,52 @@ creating your Power BI report.
 * Power BI is straightforward and delivers powerful data-backed business intelligence to help you answer questions, make decisions, track progress, make predictions, stay up-to-date on a regular cadence, and much more.
 *You used Power BI Home and the navigation pane to find your content: dashboards, reports, and apps.
  You opened a dashboard and added alerts and comments. On that dashboard, you selected tiles to open and view reports. With a report open, you moved between the report pages, changed display options, explored filters and bookmarks, and viewed and exported the underlying data
+# GET DATA WITH POWER BI
+* Before you can create reports, you must first extract data from the various data sources.
+*  Interacting with SQL Server is different from Excel, so you should learn the nuances of both systems. After gaining understanding of the systems, you can use Power Query to help you clean the data, such as renaming columns, replacing values, removing errors, and combining query results. Power Query is also available in Excel.
+*   After the data has been cleaned and organized, you're ready to build reports in Power BI. Finally, you'll publish your combined semantic model and reports to
+  Power BI service.
+
+# Get data from files
+* Organizations often export and store data in files.
+*  One possible file format is a flat file. A flat file is a type of file that has only one data table and every row of data is in the same structure.
+*  The file doesn't contain hierarchies.
+*  Likely, you're familiar with the most common types of flat files, which are comma-separated values (.csv) files, delimited text (.txt) files, and fixed width files
+*  Another type of file would be the output files from different applications, like Microsoft Excel workbooks (.xlsx).
+*  Power BI Desktop allows you to get data from many types of files. You can find a list of the available options when you use the Get data feature in Power BI Desktop.
+# Flat file location
+* Local - You can import data from a local file into Power BI. The file isn't moved into Power BI, and a link doesn't remain to it. Instead, a new semantic model is created in Power BI, and data from the Excel file is loaded into it. Accordingly, changes to the original Excel file aren't reflected in your Power BI semantic model. You can use local data import for data that doesn't change.
+* OneDrive for Business - You can pull data from OneDrive for Business into Power BI. This method is effective in keeping an Excel file and your semantic model, reports, and dashboards in Power BI synchronized. Power BI connects regularly to your file on OneDrive. If any changes are found, your semantic model, reports, and dashboards are automatically updated in Power BI.
+* OneDrive - Personal - You can use data from files on a personal OneDrive account, and get many of the same benefits that you would with OneDrive for Business. However, you'll need to sign in with your personal OneDrive account, and select the Keep me signed in option. Check with your system administrator to determine whether this type of connection is allowed in your organization.
+* SharePoint - Team Sites - Saving your Power BI Desktop files to SharePoint Team Sites is similar to saving to OneDrive for Business. The main difference is how you connect to the file from Power BI. You can specify a URL or connect to the root folder.
+* ![image](https://github.com/ZiyandaPetela/Power-BI/assets/123364433/661c25ff-aeb4-46bf-b4a2-ddbc14efee01)
+* Using a cloud option such as OneDrive or SharePoint Team Sites is the most effective way to keep your file and your semantic model, reports, and dashboards in Power BI in-sync. However, if your data doesn't change regularly, saving files on a local computer is a suitable option.
+
+## Connect to data in a file
+*  on the Home tab, select Get data. In the list that displays, select the option that you require, such as Text/CSV or XML. For this example, you'll select Excel.
+## Select the file data to import
+* This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
+### Change the source file
+* You might have to change the location of a source file for a data source during development, or if a file storage location changes. To keep your reports up to date, you'll need to update your file connection paths in Power BI.
+* Power Query provides many ways for you to accomplish this task, so that you can make this type of change when needed.
+* Data source settings
+* Query settings
+* Advanced Editor
+* try changing the data source file path in the data source settings. Select Data source settings in Power Query. In the Data source settings window, select your file and then select Change Source. Update the File path or use the Browse option to locate your file, select OK, and then select Close.
+
+## Get data from relational data sources
+*  can use Power BI Desktop to connect directly to the database instead of using exported flat files.
+*  Connecting Power BI to your database will help you to monitor the progress of your business and identify trends, so you can forecast sales figures, plan budgets and set performance indicators and targets.
+*   Power BI Desktop can connect to many relational databases that are either in the cloud or on-premises.
+## Select data to import
+* After the database has been connected to Power BI Desktop, the Navigator window displays the data that is available in your data source (the SQL database in this example). You can select a table or entity to preview its contents and make sure that the correct data will be loaded into the Power BI model.
+* Select the check box(es) of the table(s) that you want to bring in to Power BI Desktop, and then select either the Load or Transform Data option.
+* Load - Automatically load your data into a Power BI model in its current state.
+* Transform Data - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality tasks.
+
+## Import data by writing an SQL query
+* Another way you can import data is to write an SQL query to specify only the tables and columns that you need.
+* To write your SQL query, on the SQL Server database window, enter your server and database names, and then select the arrow next to Advanced options to expand this section and view your options. In the SQL statement box, write your query statement, and then select OK.
+### Change data source settings
+
+
