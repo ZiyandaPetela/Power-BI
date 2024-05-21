@@ -309,7 +309,13 @@ Requirements:
 Frequency: Decide whether reports are needed on a daily, weekly, monthly, or ad-hoc basis.
 Format: Determine the format of reports (e.g., dashboards, PDFs, spreadsheets).
 
-
+### Identify the audience
+* Identifying the audience is a vital step in the report design process because it allows the report creator to produce a result that is both practical and tailored to the needs of the report users.
+* Report consumers can generally be classified into three groups:
+* Executives
+* Analysts
+* Information Workers
+* Executives are individuals tasked with making strategic plans and decisions, often with a medium to long-term perspective. They are responsible for ensuring the business operates efficiently. For example, C-level executives at Contoso Skateboard Store fall into this category.
 
 
 
