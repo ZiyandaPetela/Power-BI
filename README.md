@@ -316,6 +316,37 @@ Format: Determine the format of reports (e.g., dashboards, PDFs, spreadsheets).
 * Analysts
 * Information Workers
 * Executives are individuals tasked with making strategic plans and decisions, often with a medium to long-term perspective. They are responsible for ensuring the business operates efficiently. For example, C-level executives at Contoso Skateboard Store fall into this category.
+* An analyst is someone who offers insights and guidance to the organization. Their responsibilities can vary widely, but they generally focus on assessing the effectiveness of business strategies, developing or enhancing processes, or implementing changes. A business analyst or data analyst in the sales division of Contoso Skateboard Store is an example of an analyst audience.
+* An information worker is an individual who uses data to make decisions or take actions, typically on a daily operational basis. For instance, the inventory manager at Contoso Skateboard Store, who requires current information about stock levels, is an example of an information worker audience.
+* An information worker is an individual who uses data to make decisions or take actions, typically on a daily operational basis. For instance, the inventory manager at Contoso Skateboard Store, who requires current information about stock levels, is an example of an information worker audience.
+
+## Determine report types
+* Generally, report design can be categorized by report type. There is often a direct correlation between the report audience and the type of report. Audience needs can be addressed by one or a combination of the following four report types:
+* Dashboard
+* Analytical
+* Operational
+* Educational
+* Typically, executives use dashboards, analysts use analytical reports, and information workers use operational reports.
+* ![image](https://github.com/ZiyandaPetela/Power-BI/assets/123364433/742c7184-c6ef-44fa-bcba-6da5e7e9874e)
+
+### Dashboard
+* The main objective of a dashboard is to swiftly convey the story within the data. User interactions are restricted, emphasizing insights tailored to the audience's specific needs.
+*  Visual elements in the report are concise, self-explanatory, and prominently labeled. Dashboards aim to directly convey the significance of the data, reducing the likelihood of misinterpretation or uncertainty.
+*  An executive dashboard serves as a prime illustration, typically showcasing key metrics on a single page. These dashboards address inquiries like "How is our performance?" or "Have we achieved our goals yet?"\
+
+### Analytical reports
+* An analytical report stands out as the most versatile type of report, catering to various needs of report consumers while offering a structured platform for analysis.
+* The primary aim of an analytical report is to empower report consumers to explore a wide range of questions by engaging with the report and its visuals. These reports often feature numerous slicers to filter data and include intricate visuals that unveil detailed insights.
+* Designed with a focus on user experience (UX), report pages in analytical reports are specifically crafted for interactivity. They offer multiple pathways for report consumers to navigate, enabling them to delve into topics of interest, share their discoveries, or backtrack to their starting point. Interactive features allow users to peel back layers, add context, and access detailed information. Common interactive features include drill down, drill through, and tooltips.
+* A prime example of an analytical report transcends the simple "How are we doing?" inquiry to address questions like "Why did that occur?" or "What could happen next?"
+
+
+
+
+
+
+
+
 
 
 
