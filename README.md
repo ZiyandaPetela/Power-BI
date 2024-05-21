@@ -294,3 +294,7 @@ creating your Power BI report.
 ### Change data source settings
 * After you create a data source connection and load data into Power BI Desktop, you can return and change your connection settings at any time. This action is often required due to a security policy within the organization, for example, when the password needs to be updated every 90 days. You can change the data source, edit permissions or clear permissions.
 
+
+# Build Power BI visuals and reports
+* 
+
