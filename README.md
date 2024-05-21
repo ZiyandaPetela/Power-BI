@@ -296,5 +296,23 @@ creating your Power BI report.
 
 
 # Build Power BI visuals and reports
-* 
+* Defining clear goals at the start of a reporting project is essential for its success. These goals provide a framework for identifying the specific needs related to audiences, report types, user interface (UI), and user experience (UX). Here's how to outline these goals for each area:
+1. Audiences
+Goal: Identify and understand the different stakeholders who will use the reports.
+Requirements:
+User Profiles: Define who the end users are (e.g., executives, managers, analysts, clients, general employees).
+Information Needs: Determine what specific information each user group requires.
+Access Levels: Establish different access permissions based on user roles to ensure data security and relevance.
+2. Report Type
+Goal: Specify the types of reports that will meet the needs of the identified audiences.
+Requirements:
+Frequency: Decide whether reports are needed on a daily, weekly, monthly, or ad-hoc basis.
+Format: Determine the format of reports (e.g., dashboards, PDFs, spreadsheets).
+
+
+
+
+
+
+
 
