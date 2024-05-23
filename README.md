@@ -340,6 +340,9 @@ Format: Determine the format of reports (e.g., dashboards, PDFs, spreadsheets).
 * Designed with a focus on user experience (UX), report pages in analytical reports are specifically crafted for interactivity. They offer multiple pathways for report consumers to navigate, enabling them to delve into topics of interest, share their discoveries, or backtrack to their starting point. Interactive features allow users to peel back layers, add context, and access detailed information. Common interactive features include drill down, drill through, and tooltips.
 * A prime example of an analytical report transcends the simple "How are we doing?" inquiry to address questions like "Why did that occur?" or "What could happen next?"
 
+# Define user interface requirements
+* UI requirements relate to how reports are consumed and to the appearance and behavior of reports. Aspects to consider include form factor, input method, style and theme, and accessibility.
+
 
 
 
