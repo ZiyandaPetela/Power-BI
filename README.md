@@ -343,6 +343,14 @@ Format: Determine the format of reports (e.g., dashboards, PDFs, spreadsheets).
 # Define user interface requirements
 * UI requirements relate to how reports are consumed and to the appearance and behavior of reports. Aspects to consider include form factor, input method, style and theme, and accessibility.
 
+## Style and theme
+* UI requirements should also consider style and theme. Strive to design reports with a consistent and distinctive appearance that is determined by a deliberate theme.
+#### The report theme should express your organizational branding or aim to complement it. At a minimum, the theme should include the following elements:
+* A brand mark or logo symbol.
+* A palette of colors that align to, or complement, organizational branding. The colors should also be sufficiently different so that, when applied to visuals, they provide appropriate contrast when appearing side by side.
+* Text settings, including font selection, sizes, and color.
+* To manage style and theme changes effectively and efficiently, design reports that use images and themes that are stored in a central repository. This approach improves change management: Changes that are applied to the repository can automatically cascade through to reports.
+
 
 
 
